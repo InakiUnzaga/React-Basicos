@@ -3,7 +3,8 @@ import logo from "./logo.svg";
 import "./App.css";
 import Componente from "./componets/Componente";
 import Propiedades from "./componets/Propiedades";
-import Estado from "./componets/Estado"
+import Estado from "./componets/Estado";
+import RendizadoCondicional from "./componets/RendizadoCondicional";
 
 function App() {
   return (
@@ -32,12 +33,16 @@ function App() {
             booleano={false}
             arreglo={[1, 2, 3]}
             objeto={{ nombre: "inaki", correo: "inakiunzaga88@gmail.com" }}
-            funcion={(num)=>(num*num)}
-            elementoReact = {<i>esto es un elemento react</i>}
-            componenteReact= {<Componente msg="soy un componente pasado como prop"/>}
+            funcion={(num) => num * num}
+            elementoReact={<i>esto es un elemento react</i>}
+            componenteReact={
+              <Componente msg="soy un componente pasado como prop" />
+            }
           />
-          <hr/>
-          <Estado/>
+          <hr />
+          <Estado />
+          <hr />
+          <RendizadoCondicional />
         </section>
       </header>
     </div>
