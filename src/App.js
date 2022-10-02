@@ -8,6 +8,8 @@ import RendizadoCondicional from "./componets/RendizadoCondicional";
 import RenderizadoElementos from "./componets/RenderizadoElementos";
 import { EventosES6, EventosES7, MasSobreEventos } from "./componets/Eventos";
 
+import ComunicacionComponente from "./componets/ComunicacionComponente";
+
 function App() {
   return (
     <div className="App">
@@ -53,6 +55,8 @@ function App() {
           <EventosES7 />
           <hr />
           <MasSobreEventos />
+          <hr />
+          <ComunicacionComponente />
         </section>
       </header>
     </div>
