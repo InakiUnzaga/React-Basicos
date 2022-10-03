@@ -10,6 +10,8 @@ import { EventosES6, EventosES7, MasSobreEventos } from "./componets/Eventos";
 
 import ComunicacionComponente from "./componets/ComunicacionComponente";
 
+import CicloVida from "./componets/CicloVida";
+
 function App() {
   return (
     <div className="App">
@@ -57,6 +59,8 @@ function App() {
           <MasSobreEventos />
           <hr />
           <ComunicacionComponente />
+          <hr />
+          <CicloVida />
         </section>
       </header>
     </div>
