@@ -13,6 +13,7 @@ import ComunicacionComponente from "./componets/ComunicacionComponente";
 import CicloVida from "./componets/CicloVida";
 import AjaxApis from "./componets/AjaxApis";
 import ContadorHook from "./componets/ContadorHooks";
+import ScrollHooks from "./componets/ScrollHooks";
 
 function App() {
   return (
@@ -67,6 +68,8 @@ function App() {
           <AjaxApis />
           <hr />
           <ContadorHook titulo="Seguidores" />
+          <hr />
+          <ScrollHooks />
         </section>
       </header>
     </div>
