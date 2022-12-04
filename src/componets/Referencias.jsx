@@ -31,16 +31,15 @@ export default function Referencias() {
         menu
       </button>
       <nav id="menu" ref={refMenu} style={{ display: "none" }}>
-        <a href="#"> Seccion 1 </a>
-
+        <a href=" "> Seccion 1 </a>
         <br />
-        <a href="#">Seccion 2</a>
+        <a href=" ">Seccion 2</a>
         <br />
-        <a href="#">Seccion 3</a>
+        <a href=" ">Seccion 3</a>
         <br />
-        <a href="#">Seccion 4</a>
+        <a href=" ">Seccion 4</a>
         <br />
-        <a href="#">Seccion 5</a>
+        <a href=" ">Seccion 5</a>
         <br />
       </nav>
     </>

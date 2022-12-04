@@ -17,6 +17,7 @@ import ScrollHooks from "./componets/ScrollHooks";
 import RelojHooks from "./componets/RelojHooks";
 import AjaxHooks from "./componets/AjaxHooks";
 import Referencias from "./componets/Referencias";
+import Formularios from "./componets/Formularios";
 
 function App() {
   return (
@@ -79,6 +80,12 @@ function App() {
           <AjaxHooks />
           <hr/>
           <Referencias/>
+          <hr/>
+          <Formularios/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
         </section>
       </header>
     </div>
