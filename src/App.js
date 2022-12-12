@@ -19,6 +19,7 @@ import AjaxHooks from "./componets/AjaxHooks";
 import Referencias from "./componets/Referencias";
 import Formularios from "./componets/Formularios";
 import Estilos from "./componets/Estilos";
+import ComponentesEstilizados from "./componets/ComponentesEstilizados";
 
 function App() {
   return (
@@ -85,8 +86,11 @@ function App() {
           <Formularios />
           <br />
           <br />
+          <hr />
           <Estilos />
           <br />
+          <hr />
+          <ComponentesEstilizados />
           <br />
         </section>
       </header>
